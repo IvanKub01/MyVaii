@@ -61,6 +61,9 @@ ul li button{
 #transid {
     display: inline-block;
     font-size: x-large;
+
+}
+.wiredfont {
     font-family: 'Schoolbell', arial, serif;;
 
 }
@@ -89,8 +92,8 @@ pre {
     outline-style: solid;
     outline-color: rgba(50, 115, 220, 0.3);
     outline-width: 7px;
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: auto;
 }
 table tr {
     font-size: xx-large;
@@ -124,8 +127,31 @@ table tr {
     transform: translate(50%, 0%);
 
 }
-@media only screen and (max-width: 388px) {
+#ifrID {
+    width: 350px;
+    height: 300px;
+
+}
+.pad {
+    padding: 10px;
+}
+@media only screen and (max-width: 455px) {
     .menu ul {
         display: inline-block;
+    }
+}
+@media only screen and (max-width: 675px) {
+    #otvHodinID {
+        display: inline-block;
+
+    }
+    #OpH {
+        float: left;
+    }
+}
+@media only screen and (max-width: 390px) {
+    #ifrID {
+        width: 50%;
+        height: auto;
     }
 }
