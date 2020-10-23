@@ -83,6 +83,7 @@ pre {
     display: none;
 }
 #OpHdiv {
+    display: inline-block;
     height: 100%;
 }
 #OpH {
@@ -99,7 +100,9 @@ table tr {
     font-size: xx-large;
     font-family: 'Schoolbell', arial, serif;;
 }
-
+table {
+    display: inline-block;
+}
 
 .col-3 {width: 25%;}
 .row::after {
